@@ -19,8 +19,8 @@
 
 	<div class="container-fluid" id="header">
 		<!-- ======== Navbar Section  ========= -->
-		<div class="container" id="navmenu">
-			<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+		<div class="container-fluid fixed-top" id="navmenu">
+			<nav class="navbar navbar-expand-lg navbar-dark">
 				<a href="#landing" class="navbar-brand d-lg-none">Tan</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#portfolio-nav">
 				<span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
 				<div class="collapse navbar-collapse" id="portfolio-nav">
 				    <ul class="navbar-nav ml-auto text-center text-md-left">
 		                <li class="nav-item">
-		                    <a href="#home" class="nav-link">Home</a>
+		                    <a href="#landing" class="nav-link">Home</a>
 		                </li>
 		                <li class="nav-item">
 		                    <a href="#projects" class="nav-link">Projects</a>
@@ -48,22 +48,158 @@
 		</div>
 		<!-- ======== End of Navbar Section  ========= -->
 
-		<!-- ======== Landing Page ======== -->
-		<div class="container text-light py-5 py-md-5" id="landing">
-			<div class="row d-md-flex justify-content-center align-items-center py-md-5">
+		<!-- ======== Landing Page Section ======== -->
+		<div class="container text-light py-md-5" id="landing">
+			<div class="row d-md-flex justify-content-center align-items-center py-5">
 				<div class="col-12 col-md-6 order-1">
-					<h3>Jonathan A Medillen</h3>
-					<p class="text-muted">Front-End Developer</p>
-					<p class="text-justify">A front-end developer architects and develops websites and applications using web technologies (i.e., HTML, CSS, DOM, and JavaScript), which run on the Open Web Platform or act as compilation input for non-web platform environments (i.e., React Native).</p>
-					<button type="button" class="btn btn-dark" id="resume">Download Resume</button>	
-				 </div>
-				 <div class="col-12 col-md-4 p-5 order-md-1">
+					<h1 class="text-center text-md-left">Jonathan Medillen</h1>
+					<p class="text-muted text-center text-md-left">Front-End Developer</p>
+					<p class="text-justify text-md-justify">I was an Search Enginge Optimization Specialist but now aspiring to be a Full-Stack Developer.</p>
+					<div class="d-flex justify-content-between align-items-md-baseline ">
+						<button type="button" class="btn btn-dark h-25 d-flex align-items-md-baseline" id="resume"><a class="text-white text-decoration-none" href="https://www.canva.com/design/DAFHPOw_7ZA/aQFs-cr2deEkKFLe97enbw/view?utm_content=DAFHPOw_7ZA&utm_campaign=designshare&utm_medium=link&utm_source=homepage_design_menu" target="_blank" download="resume" id="resume">Download Resume</a></button>	
+					</div>
+				</div>
+				<div class="col-12 col-md-4 p-5 order-md-1">
 				 	<img src="image/profile.jpg" class="img-fluid rounded-circle">
-				 </div>
-			</div>
+				</div>
+			</div>			
 		</div>
 		<!-- ======== End of Landing Page ======== -->
 	</div>
+
+	<!-- ======== My Project Section ======== -->
+	<div class="container-fluid text-center text-light py-5" id="projects"> 
+		<h2 class="text-dark">My Projects</h2>
+		<div class="row d-flex justify-content-around align-items-center">
+			<div class="_cards col-12 col-md-3 card mx-5 p-3">
+				<img src="https://iili.io/HNlHdhX.png" class="card-img-top img-fluid border " alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">My First Project</h5>
+				    <p class="card-text">A front-end developer architects and develops websites and applications using web technologies.</p>
+				    <a href="#" class="_card-button btn btn-primary">Visit Website</a>
+				  </div>
+			</div>
+			<div class="_cards col-12 col-md-3 card justify-content-center p-3 my-3">
+				<img src="https://iili.io/HNl3FN2.png" class="card-img-top img-fluid border " alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">My Second Project</h5>
+				    <p class="card-text">Backend developers build code that allows a database and an application to communicate with one another.</p>
+				    <a href="https://zuitt.co/?gclid=Cj0KCQjwt_qgBhDFARIsABcDjOf-BttGLOwCBay1o45hkRmxKWDe30cYNP48CzP-FcBYFcOGuisBeusaAloaEALw_wcB" target="_blank" class="_card-button btn btn-primary">Visit Website</a>
+				  </div>
+			</div>
+			<div class="_cards col-12 col-md-3 card justify-content-center p-3 mx-5">
+				<img src="https://iili.io/HNl3Ofn.png" class="card-img-top img-fluid border " alt="...">
+				  <div class="card-body">
+				    <h5 class="card-title">My Third Project</h5>
+				    <p class="card-text">What is meant by full stack development? Full stack development is the end-to-end development of applications.</p>
+				    <a href="https://zuitt.co/?gclid=Cj0KCQjwt_qgBhDFARIsABcDjOf-BttGLOwCBay1o45hkRmxKWDe30cYNP48CzP-FcBYFcOGuisBeusaAloaEALw_wcB" target="_blank" class="_card-button btn btn-primary">Visit Website</a>
+				  </div>
+			</div>
+		</div>
+	</div>
+	<!-- ======== End of My Project ======== -->
+
+
+	<!-- ======== Tools Section ======== -->
+	<div class="container-fluid d-flex justify-content-around align-items-center mb-5"  id="tools">
+		<h2 class="text-light text-center d-md-none p-4">Tools</h2>
+		<div class="row py-3" id="tool-set">
+			<div class="_languages col-6 col-md-2">
+				<img src="./image/logo-html5.png" class="img-fluid rounded-circle h-75 w-75">
+			</div>
+			<div class="_languages col-6 col-md-2">
+				<img src="./image/logo-css3.png" class="img-fluid rounded-circle h-75 w-75">
+			</div>
+			<div class="_languages col-6 col-md-2">
+				<img src="./image/logo-bootstrap.png" class="img-fluid rounded-circle h-75 w-75">
+			</div>
+			<div class="_languages col-6 col-md-2">
+				<img src="./image/logo-git.png" class="img-fluid rounded-circle h-75 w-75">
+			</div>
+			<div class="_languages col-6 col-md-2">
+				<img src="./image/logo-gitlab.png" class="img-fluid rounded-circle h-75 w-75">
+			</div>
+			<div class="_languages col-6 col-md-2">
+				<img src="./image/logo-sublime.png" class="img-fluid rounded-circle h-75 w-75">
+			</div>			
+		</div>	
+	</div>
+	<!-- ======== End of Tools Section ======== -->
+
+	<!-- ======== Contact Me Section ======== -->
+	<div class="container-fluid text-light" id="contact">
+		<h2 class="text-center pt-4">Contact</h2>
+		<div class="row justify-content-center">
+			<div class="col-3 col-md-1">
+				<p><a href="https://www.facebook.com/" target="_blank">
+				<img src="./image/facebook.png" class="img-fluid"></a></p>
+			</div>
+			<div class="col-3 col-md-1">
+				<p><a href="https://www.linkedin.com/in/jonathan-medillen-a38977225" target="_blank">
+				<img src="./image/linkedin.png" class="img-fluid"></a></p>
+			</div>
+			<div class="col-3 col-md-1">
+				<p><a href="https://www.youtube.com/" target="_blank">
+				<img src="./image/youtube.png" class="img-fluid"></a></p>
+			</div>
+		</div>
+		<div class="row mx-5">
+			<div class="col-md-6 my-md-4 pt-md-5">
+		        <h4 class="text-center">Message Us</h4>
+		        <form>
+		            <div class="form-group">
+		                <label>Full Name</label>
+		                <input type="text" class="form-control" required>
+		            </div>
+		            <div class="form-group">
+		                <label>Email Address</label>
+		                <input type="email" class="form-control" required>
+		            </div>
+		            <div class="form-group">
+		                <label>Message</label>
+		                <textarea class="form-control"></textarea>
+		            </div>
+		            <button type="button" class="btn btn-outline-dark btn-block text-light" data-toggle="modal" data-target="#exampleModal" id="submit">Submit</button>
+
+		            <!-- Modal Start -->
+		            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		                <div class="modal-dialog">
+		                    <div class="modal-content">
+		                        <div class="modal-header">
+		                            <h5 class="modal-title text-success" id="exampleModalLabel">Thank you for contacting us!</h5>
+		                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+		                              <span aria-hidden="true">&times;</span>
+		                            </button>
+		                        </div>
+
+		                        <div class="modal-body text-success">Message Successfully Sent</div>
+		                        <div class="modal-footer">
+		                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		                        </div>
+		                    </div>
+		                </div>
+		            </div>
+		            <!-- Modal End -->  
+		        </form>
+		    </div>
+		    <div class="embed-responsive embed-responsive-1by1 col-md-5 m-4">
+		    	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15722.528556069095!2d123.5794758761284!3d9.88119722638992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33abc5e7eb9da301%3A0xf17e05233eff365d!2sLamacan%2C%20Argao%2C%20Cebu!5e0!3m2!1sen!2sph!4v1679827207317!5m2!1sen!2sph" width="600" height="300" class="emdbed-responsive-item"></iframe>
+
+		    	<!-- <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=centro%20escolar%20university%20manila&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed" width="600" height="450" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe> -->
+
+		    </div>
+		</div>	
+	</div>
+	<!-- ======== End of Contact Me Section ======== -->
+
+	<!-- ======== Footer Section ======== -->
+	<footer class="p-3 bg-dark text-light text-center">
+          
+            <p class="text-center m-0">© All Rights Reserved 2023</p>
+        </footer>
+	<!-- ======== End of Footer Section ======== -->
+
+
 		
 
 

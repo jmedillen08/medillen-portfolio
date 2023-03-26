@@ -1,6 +1,9 @@
-* {
-	font-family: 'Source Sans Pro', sans-serif;
+#header {
+	font-family: 'Raleway', sans-serif;
+	background-color: #080808;
 }
+
+/* ===== Navbar ===== */
 
 #navmenu {
 	background-color: #1B1B1B;
@@ -11,10 +14,50 @@
 	font-size: 30px;
 }
 
-#header {
+
+#resume {
+	background: #3F8E00;
+	border: 1px solid #62BA1B;
+	border: none;
+	box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.5);
+}
+
+/* ===== All H2 Titles ===== */
+div h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 50px;
+}
+
+/* ===== Project (Buttons =====) */
+
+._card-button {
+	background: #3F8E00;
+	border: 1px solid #62BA1B;
+	box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.5);
+}
+
+._cards {
 	background-color: #080808;
 }
 
-#resume {
-	background-color: #3F8E00;
+/* ===== Tools ===== */
+
+#tools {
+	background-color: #080808;
+}
+
+
+._languages:hover {
+	transform: scale(1.5);
+}
+
+/* ===== Contacts ===== */
+#contact {
+	background-color: #080808;
+}
+
+#submit {
+	background: #3F8E00;
+	border: 1px solid #62BA1B;
+	box-shadow: 0px 8px 30px rgba(63, 142, 0, 0.5);
 }
